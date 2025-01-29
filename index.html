@@ -20,9 +20,9 @@
   <img src="/images/logo.svg" alt="Splitter logo" class="logo">
   <div class="calc-container">
     <div class="calc-content">
-      <label for="bill" class="input-name">Bill</label>
+      <label for="bill" class="input-name">Bill <p class="error-message-bill"></p></label>
       <div class="bill-input">
-        <input type="text" name="bill" class="text-input bill">
+        <input type="number" name="bill" class="text-input bill">
       </div>
       <p class="select-tip input-name">Select Tip %</p>
       <div class="radio-container">
@@ -42,11 +42,11 @@
         <label class="tip-button" for="fifty">50%</label>
 
         <input type="radio" class="tip-persent" name="radiobutton" id="custom">
-        <label class="custom-button" for="custom"><input type="text" placeholder="Custom" class="custom-input"></label>
+        <label class="custom-button" for="custom"><input type="number" placeholder="Custom" class="custom-input"></label>
       </div>
-      <label for="people" class="input-name">Number of People</label>
+      <label for="people" class="input-name">Number of People <p class="error-message-people"></p></label>
       <div class="people-number">
-        <input type="text" class="text-input people" name="people">
+        <input type="number" class="text-input people" name="people">
       </div>
       <div class="amount-container">
         <div class="calculation-container">
@@ -63,7 +63,7 @@
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Masya</a>.
   </div>
   <script src="script.js"></script>
 </body>

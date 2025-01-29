@@ -20,42 +20,39 @@
   <img src="/images/logo.svg" alt="Splitter logo" class="logo">
   <div class="calc-container">
     <div class="calc-content">
-      <label for="bill" class="input-name">Bill <p class="error-message-bill"></p></label>
-      <div class="bill-input">
-        <input type="number" name="bill" class="text-input bill">
-      </div>
-      <p class="select-tip input-name">Select Tip %</p>
-      <div class="radio-container">
-        <input type="radio" class="tip-persent" name="radiobutton" id="five">
-        <label class="tip-button" for="five">5%</label>
-
-        <input type="radio" class="tip-persent" name="radiobutton" id="ten">
-        <label class="tip-button" for="ten">10%</label>
-
-        <input type="radio" class="tip-persent" name="radiobutton" id="fifteen">
-        <label class="tip-button" for="fifteen">15%</label>
-
-        <input type="radio" class="tip-persent" name="radiobutton" id="twenty-five">
-        <label class="tip-button" for="twenty-five">25%</label>
-
-        <input type="radio" class="tip-persent" name="radiobutton" id="fifty">
-        <label class="tip-button" for="fifty">50%</label>
-
-        <input type="radio" class="tip-persent" name="radiobutton" id="custom">
-        <label class="custom-button" for="custom"><input type="number" placeholder="Custom" class="custom-input"></label>
-      </div>
-      <label for="people" class="input-name">Number of People <p class="error-message-people"></p></label>
-      <div class="people-number">
-        <input type="number" class="text-input people" name="people">
+      <div class="fields-container">
+        <label for="bill" class="input-name">Bill <p class="error-message-bill"></p></label>
+        <div class="bill-input">
+          <input type="number" name="bill" class="text-input bill">
+        </div>
+        <p class="select-tip input-name">Select Tip %</p>
+        <div class="radio-container">
+          <input type="radio" class="tip-persent" name="radiobutton" id="five">
+          <label class="tip-button" for="five">5%</label>
+          <input type="radio" class="tip-persent" name="radiobutton" id="ten">
+          <label class="tip-button" for="ten">10%</label>
+          <input type="radio" class="tip-persent" name="radiobutton" id="fifteen">
+          <label class="tip-button" for="fifteen">15%</label>
+          <input type="radio" class="tip-persent" name="radiobutton" id="twenty-five">
+          <label class="tip-button" for="twenty-five">25%</label>
+          <input type="radio" class="tip-persent" name="radiobutton" id="fifty">
+          <label class="tip-button" for="fifty">50%</label>
+          <input type="radio" class="tip-persent" name="radiobutton" id="custom">
+          <label class="custom-button" for="custom"><input type="number" placeholder="Custom" class="custom-input"></label>
+        </div>
+        <label for="people" class="input-name">Number of People <p class="error-message-people"></p></label>
+        <div class="people-number">
+          <input type="number" class="text-input people" name="people">
+        </div>
       </div>
       <div class="amount-container">
         <div class="calculation-container">
           <p class="calculation-text">Tip Amount<br><span class="calculation-subtext">/ person</span></p>
-          <p class="tip-amount amount">$0</p>
+          <p class="tip-amount amount">$0.00</p>
         </div>
         <div class="calculation-container">
           <p class="calculation-text">Total<br><span class="calculation-subtext">/ person</span></p>
-          <p class="total-amount amount">$0</p>
+          <p class="total-amount amount">$0.00</p>
         </div>
         <button class="reset-button">RESET</button>
       </div>
